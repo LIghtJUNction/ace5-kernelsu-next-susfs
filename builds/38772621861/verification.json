@@ -1,0 +1,26 @@
+{
+  "status": "built_and_config_verified_not_device_tested",
+  "run_url": "https://github.com/LIghtJUNction/ace5-kernelsu-next-susfs/actions/runs/38772621861",
+  "built_commit": "25feb02543d68df2fc1b0a096dc5b0d30c4409fb",
+  "kernel_banner": "Linux version 6.1.141-android14-ace5-ksun-susfs (build-user@build-host) (Android (10087095, +pgo, +bolt, +lto, -mlgo, based on r487747c) clang version 17.0.2 (https://android.googlesource.com/toolchain/llvm-project d9f89f4d16663d5012e5c09495f3b30ece3d2362), LLD 17.0.2) #1 SMP PREEMPT Thu Oct 15 16:58:18 UTC 2026",
+  "kernelsu_version_code": 33380,
+  "susfs_version": "v2.3.0",
+  "image_bytes": 36493824,
+  "image_sha256": "23f0c074425a636b8b739e355747894b7feea0c42b2a161d490bf8544a10f929",
+  "files_verified": 13,
+  "artifacts": {
+    "AnyKernel3_KernelSU-Next_33380_OnePlusAce5_Android16.0.0(6.1.141)_BBG_ILH.zip": "6352587c2c5189fa351ebe0eeeec10ea85f142e13e1646fcba1229279febda1b",
+    "ace5-build-evidence-38772621861.zip": "b773e398e49a181e64ab1909d7946b850079fe8f14c1cc57a5689dc857d2a855"
+  },
+  "checks": [
+    "GitHub artifact digest",
+    "ZIP CRC",
+    "all package files against workflow receipt",
+    "source pins",
+    "embedded Image config",
+    "KernelSU-Next identity",
+    "SUSFS and BBG config",
+    "KPM disabled",
+    "model and Android guards before installer core"
+  ]
+}

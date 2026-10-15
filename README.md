@@ -11,7 +11,11 @@
 
 ## 当前状态
 
-**仓库配置已建立，尚未编译或通过真机验证，不能当作可用刷机包。**
+**首次构建和产物核验已通过，尚未经过真机启动测试。**
+
+[构建记录与下载](https://github.com/LIghtJUNction/ace5-kernelsu-next-susfs/actions/runs/38772621861)：源码提交 `25feb02543d68df2fc1b0a096dc5b0d30c4409fb`，内核 `6.1.141-android14-ace5-ksun-susfs`，KernelSU-Next 驱动 `33380`，SUSFS `v2.3.0`，BBG 已启用，KPM 未启用。核验包含实际配置、镜像内嵌配置、源码提交以及下载包 SHA256。
+
+构建证据保存在 [`builds/38772621861/`](builds/38772621861/)，详情见 [BUILD_STATUS.md](BUILD_STATUS.md)。
 
 [WildKernels 的发布说明](https://github.com/WildKernels/OnePlus_KernelSU_SUSFS/releases)曾报告 Ace 5 ColorOS 16 / 6.1.141 源码编译后不能启动；[官方仓库 issue #36](https://github.com/OnePlusOSS/android_kernel_common_oneplus_sm8650/issues/36)涉及 16.0.7.200。本仓库锁定的是较新的 16.0.9.400 源码，尚未确认该问题是否仍影响本次提交。即使构建通过，也必须维持“未验证启动”状态；详见 BUILD_STATUS.md。
 

@@ -1,0 +1,63 @@
+{
+  "device": "PKG110",
+  "android": 16,
+  "kernelsu": "a864260bb834f3a4492c73252b7329079d0d8a38",
+  "kernelsu_version_code": 33380,
+  "workflow_commit": "25feb02543d68df2fc1b0a096dc5b0d30c4409fb",
+  "run_id": "38772621861",
+  "status": "built_and_config_verified_not_device_tested",
+  "files": {
+    "Image": {
+      "bytes": 36493824,
+      "sha256": "23f0c074425a636b8b739e355747894b7feea0c42b2a161d490bf8544a10f929"
+    },
+    "LICENSE": {
+      "bytes": 11630,
+      "sha256": "df6f65da47d459fdf2a2ef0eadb34f37d838befc91352b64a84f35507bea95cd"
+    },
+    "META-INF/com/google/android/update-binary": {
+      "bytes": 19948,
+      "sha256": "18bfaca89bdf67115447895e28b65a6127a8ddab6ff2561b214e70cef35f76f9"
+    },
+    "META-INF/com/google/android/updater-script": {
+      "bytes": 115,
+      "sha256": "bb624eb9bfdf3b2ee9f5aa1b6b6324fb05cd0408bb98cfd1397d667076072b31"
+    },
+    "anykernel.sh": {
+      "bytes": 4673,
+      "sha256": "8422237092925375126e73e91d6f864b573239e369a5414a9150223761ab3d53"
+    },
+    "tools/ak3-core.sh": {
+      "bytes": 34385,
+      "sha256": "48b18b8b1199cd5994a0b284877cf87807e17d118caa485d6cc5e9fddfa5f2b1"
+    },
+    "tools/busybox": {
+      "bytes": 1710600,
+      "sha256": "4d60ab3f5a59ebb2ca863f2f514e6924401b581e9b64f602665c008177626651"
+    },
+    "tools/fec": {
+      "bytes": 131424,
+      "sha256": "a486890d0fd713557c55af881a78b3fd11a16ff195e29bd8559b0407de08d60e"
+    },
+    "tools/httools_static": {
+      "bytes": 742144,
+      "sha256": "9f7285341423ca02e1ff54a05b757db8bb09cfa36802879db3b358ae5a6c96aa"
+    },
+    "tools/lptools_static": {
+      "bytes": 618664,
+      "sha256": "da1b80e231bb7576d76e6f57bea4e27706805ec86b9b9c6524ac609c3179b969"
+    },
+    "tools/magiskboot": {
+      "bytes": 910296,
+      "sha256": "077bf95aeab6520db017e9bae25829afc2a9d75b15a6be06ddb383841dcdbb03"
+    },
+    "tools/magiskpolicy": {
+      "bytes": 358128,
+      "sha256": "dd25b757292d3cf57b2e69447601dc827f73e8f3b1028d711cb03857df8bc3ff"
+    },
+    "tools/snapshotupdater_static": {
+      "bytes": 2235040,
+      "sha256": "708b431da44619a716011153137d18252841ce4eb7f7ab17fe78df02ad2db55c"
+    }
+  }
+}
