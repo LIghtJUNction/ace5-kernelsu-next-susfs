@@ -1,0 +1,7 @@
+.artifacts/
+.local-check*/
+__pycache__/
+kernel_workspace/
+AnyKernel3/
+build-evidence/
+source-manifest.xml
